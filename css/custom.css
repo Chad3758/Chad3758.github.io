@@ -1,0 +1,186 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+a {
+  color: #44B8FF;
+}
+
+a.nostyle {
+ text-decoration: none;
+ color: inherit;
+ cursor: auto;
+ }
+
+.container1 {
+line-height: 99px;
+height: 600px;
+align-items: center;
+font: #0000;
+position: relative;
+
+}
+
+
+
+.carousel-caption h2 {
+font-weight:200;
+font-size: 28px;
+margin: 0;
+}
+
+.carousel-caption h3 {
+font-weight:200;
+color: #ea2a2e;
+font-size: 22px;
+margin: 0;
+}
+
+.carousel-caption hr {
+margin: 13px 0;
+}
+
+.carousel-caption a {
+color: #44B8FF;
+}
+
+.carousel-caption a:hover {
+text-decoration: underline;
+}
+
+.carousel-caption a:visited {
+color: #44B8FF;
+}
+
+
+.row{
+  width: 1300px;
+  margin-left: 350px;
+}
+.container2{
+align-items: initial;
+background-color: lightblue;
+height: 500px;
+width: 800px;
+left: 560px;
+top:300px ;
+position: absolute;
+
+}
+.container3{
+  background-color:rgb(175, 173, 173) ;
+  height: 900px;
+  font-size: 40px;
+  margin: 0px;
+
+  
+
+}
+.container3 h1 {
+  top: 300px;
+  color: #0000;
+}
+
+.container4{
+  background-color: honeydew;
+  height: 800px;
+  color: rgb(3, 3, 3);
+  
+}
+
+
+.container4 h4{
+  margin-top:  70px;
+}
+.container5{
+  height: 700px;
+}
+
+.footer {
+background-color: #2e3136;
+border-top: 1px solid #989da4;
+color: #cccccc;
+padding: 40px 0;
+bottom: 0px;
+}
+
+.footer a {
+color: #ccc;
+}
+
+.footer a:hover {
+text-decoration: underline;
+}
+
+.footer a:visited {
+color: #ccc;
+}
+
+.footer ul {
+list-style: none;
+padding: 0;
+font-size: 12px;
+font-weight: 200;
+display: inline-block;
+margin-left: 100px;
+margin-top: 50px;
+
+}
+
+.footer-sub {
+
+font-size: 50px;
+display: inline-block;
+position: absolute;
+
+}
+
+.home-copyright img {
+float: right;
+}
+
+.powered-by-copyright img {
+float: right;
+}
+
+.home-copyright {
+font-size: 10px;
+text-align:right;
+}
+
+.powered-by-copyright {
+font-size: 10px;
+text-align:right;
+padding-top: 40px;
+}
+
+.btn {
+position: relative;;
+display: inline-block;
+vertical-align: left;
+margin-top: 150px;
+margin-right:140px;
+height: 100px;
+width: 100px;
+left: 280px;
+font-size: 60px;
+}
+.ig, .fb, .gh{
+left: 50px;
+top: 100px;
+}
+
+.topnav-right {
+  float: right;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+
+}
+
+
