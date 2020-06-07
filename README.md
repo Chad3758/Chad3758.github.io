@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+﻿###標題為使用語法
+*下列為應用處
 
-You can use the [editor on GitHub](https://github.com/Chad3758/Chad3758.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+<head>
+###環境建置
+*引用bootstrap
+*載入自訂的css
+*載入carousel的CSS與js
+</head>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<body>
 
-```markdown
-Syntax highlighted code block
+###NavBar
+*連結到各主題與回到最上方
 
-# Header 1
-## Header 2
-### Header 3
+###row-col
+*自我介紹
+*學歷
+*技能
 
-- Bulleted
-- List
+###Carousel
+*作品
+*技能
 
-1. Numbered
-2. List
+###button
+*作品與技能介紹
+*NavBar
+*Carousel
 
-**Bold** and _Italic_ and `Code` text
+</body>
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+##參考來源:
+-NavBar:
+	-bootstrap官網:https://bootstrap.hexschool.com/docs/4.0/components/navbar/
+	-他人作品:https://kimtyweter.github.io//index_personal.html
+-Carousel:
+	-yt影片(js&CSS):
+		-https://www.youtube.com/watch?v=gBzsE0oieio
+		-https://www.youtube.com/watch?v=VYsVOamdB0g
+	-bootstrap官網(http):https://bootstrap.hexschool.com/docs/4.0/components/carousel/
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Chad3758/Chad3758.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+-其他:
+	-github官網:https://github.com/
