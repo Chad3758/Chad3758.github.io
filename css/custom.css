@@ -16,38 +16,24 @@ height: 600px;
 align-items: center;
 font: #0000;
 position: relative;
+background-image: url('https://github.com/Chad3758/Chad3758.github.io/blob/master/images/top-b.jpg?raw=true');
+background-size:cover;
+opacity: 0.7;
+z-index:-1;
+
+
 
 }
 
-
-
-.carousel-caption h2 {
-font-weight:200;
-font-size: 28px;
-margin: 0;
+#fill{
+  width: 100%;
 }
 
-.carousel-caption h3 {
-font-weight:200;
-color: #ea2a2e;
-font-size: 22px;
-margin: 0;
-}
-
-.carousel-caption hr {
-margin: 13px 0;
-}
-
-.carousel-caption a {
-color: #44B8FF;
-}
-
-.carousel-caption a:hover {
-text-decoration: underline;
-}
-
-.carousel-caption a:visited {
-color: #44B8FF;
+.navbar{
+  font-style: italic;
+  font-size: 25px;
+  
+  align-items: flex-end;
 }
 
 
@@ -58,20 +44,41 @@ color: #44B8FF;
 .container2{
 align-items: initial;
 background-color: lightblue;
-height: 500px;
-width: 800px;
-left: 560px;
+height: 600px;
+width: 900px;
+left: 500px;
 top:300px ;
 position: absolute;
-
+z-index:1;
+display:inline;
+color: #FFF;
+}
+.container2 .row{
+  
+  margin-top: -550px;
+  margin-left:475px;
+  line-height:40px;
+  text-align: center;
+  width: 400px;
+  
+}
+#selfimg{
+  width: 400px;
+  height: 550px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.self{
+  width: 450px;
 }
 .container3{
-  background-color:rgb(175, 173, 173) ;
+  background-color:honeydew ;
   height: 900px;
   font-size: 40px;
   margin: 0px;
-
-  
+  z-index: -1;
+  position: relative;
+  color: #1a1a1b;
 
 }
 .container3 h1 {
@@ -80,7 +87,7 @@ position: absolute;
 }
 
 .container4{
-  background-color: honeydew;
+  background-color:seashell ;
   height: 800px;
   color: rgb(3, 3, 3);
   
@@ -91,8 +98,11 @@ position: absolute;
   margin-top:  70px;
 }
 .container5{
+  background-color :seashell;
   height: 700px;
+  margin-top:0px ;
 }
+
 
 .footer {
 background-color: #2e3136;
@@ -114,16 +124,7 @@ text-decoration: underline;
 color: #ccc;
 }
 
-.footer ul {
-list-style: none;
-padding: 0;
-font-size: 12px;
-font-weight: 200;
-display: inline-block;
-margin-left: 100px;
-margin-top: 50px;
 
-}
 
 .footer-sub {
 
@@ -133,24 +134,7 @@ position: absolute;
 
 }
 
-.home-copyright img {
-float: right;
-}
 
-.powered-by-copyright img {
-float: right;
-}
-
-.home-copyright {
-font-size: 10px;
-text-align:right;
-}
-
-.powered-by-copyright {
-font-size: 10px;
-text-align:right;
-padding-top: 40px;
-}
 
 .btn {
 position: relative;;
@@ -158,8 +142,8 @@ display: inline-block;
 vertical-align: left;
 margin-top: 150px;
 margin-right:140px;
-height: 100px;
-width: 100px;
+height: 110px;
+width: 110px;
 left: 280px;
 font-size: 60px;
 }
@@ -169,7 +153,7 @@ top: 100px;
 }
 
 .topnav-right {
-  float: right;
+  float: right;;
   position: relative;
   display: -ms-flexbox;
   display: flex;
@@ -182,5 +166,7 @@ top: 100px;
   padding: 0.5rem 1rem;
 
 }
+
+
 
 
